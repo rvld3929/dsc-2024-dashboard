@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="🏭",
 )
 
-st.write("# Indonesia's Non-Oil and Gas Imports by Country 🏭")
+st.markdown("# Indonesia's Non-Oil and Gas Imports by Country 🏭")
 
 st.markdown('''
             The data used on this dashboard page comes from the Indonesian Ministry of Trade [[Link](https://satudata.kemendag.go.id/data-informasi/perdagangan-luar-negeri/impor-non-migas-negara)].

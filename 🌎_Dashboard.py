@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🌎",
 )
 
-st.write("# Exchange Rate Fluctuation Tracker: Real-Time Data & Projections 🌎")
+st.markdown("# Exchange Rate Fluctuation Tracker: Real-Time Data & Projections 🌎")
 
 st.markdown('''
             ### *The exchange rate is forecasted using Global Forecasting Models (GFMs) namely DeepAR.* 

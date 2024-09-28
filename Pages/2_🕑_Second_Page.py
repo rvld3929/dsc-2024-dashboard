@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🕑",
 )
 
-st.write("# Historical Data of the Exchange Rate, Inflation, and GDP 🕑")
+st.markdown("# Historical Data of the Exchange Rate, Inflation, and GDP 🕑")
 
 st.markdown('''
             This dashboard page utilizes the datasets of the daily exchange rates [[Kurs Transaksi BI](https://www.bi.go.id/id/statistik/informasi-kurs/transaksi-bi/default.aspx)] (24 January 2001–present) and annual GDP and inflation [[World Development Indicators | DataBank](https://databank.worldbank.org/source/world-development-indicators)] (2000-2023).

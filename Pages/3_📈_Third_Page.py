@@ -15,7 +15,7 @@ st.set_page_config(
     page_icon="📈",
 )
 
-st.write("# Real-time Exchange Rate Forecast 📈")
+st.markdown("# Real-time Exchange Rate Forecast 📈")
 
 st.markdown('''
             The forecast of the exchange rate on this dashboard page uses Global Forecasting Methods, namely DeepAR. In forecasting, covariates such as inflation and annual GDP of the country are included. Tensorflow and Keras were used in the creation of this model.           
