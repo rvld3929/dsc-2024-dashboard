@@ -26,7 +26,7 @@ currency_country = {"CNH":"People's Republic of China",
 country_curerency = dict((v,k) for k,v in currency_country.items())
 
 
-exchange_rate_full = pd.read_csv("./Exchange Rate.csv", index_col=0)
+exchange_rate_full = pd.read_csv("./Exchange rate.csv", index_col=0)
 
 inflation_full = pd.read_csv("./Inflation.csv", index_col=0)
 

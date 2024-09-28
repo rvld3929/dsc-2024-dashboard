@@ -32,7 +32,7 @@ long_short = {"Chinese Yuan Renminbi Offshore (CNH)":"CNH",
 
 @st.cache_data
 def df_build():
-  exrate = pd.read_csv("./Exchange Rate.csv", index_col=0)
+  exrate = pd.read_csv("./Exchange rate.csv", index_col=0)
   exrate = exrate.set_index(pd.to_datetime(exrate.index))
 
   gdp = pd.read_csv("./GDP.csv", index_col=0)
